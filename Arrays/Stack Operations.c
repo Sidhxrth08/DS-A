@@ -5,7 +5,7 @@
 int s[max_size],top = -1;
 
 int push(item){
-	if(top == max_size-1) printf("Stack Already Full \n");
+	if(top == max_size-1) printf("Stack Full \n");
 	else{
 		top += 1;
 		s[top] = item;
