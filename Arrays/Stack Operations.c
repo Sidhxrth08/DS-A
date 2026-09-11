@@ -4,7 +4,7 @@
 
 int s[max_size],top = -1;
 
-int push(item){
+int push(int item){
 	if(top == max_size-1) printf("Stack Full \n");
 	else{
 		top += 1;
