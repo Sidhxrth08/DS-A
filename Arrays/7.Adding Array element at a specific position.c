@@ -27,7 +27,7 @@ int main() {
     arr[p] = elementToAdd;
 
     
-    printf("\nArray after adding element at: %d \n",p);
+    printf("\nArray after adding element at: %d \n",p+1);
     for (i = 0; i < 6; i++) {
         printf("Value at index %d is %d\n", i, arr[i]);
     }
