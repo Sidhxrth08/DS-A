@@ -11,7 +11,7 @@ int main() {
         scanf("%d", &arr[i]);
     }
 
-	printf("Enter Element position to add(0-5): ");
+	printf("Enter Element position to add(1-6): ");
     scanf("%d", &p);
     
     p -= 1;
