@@ -9,19 +9,19 @@ int partition(int arr[], int low, int high)
 
     while (i < j)
     {
-        // Move i from left to right
+     
         while (arr[i] <= pivot && i <= high)
         {
             i++;
         }
 
-        // Move j from right to left
+ 
         while (arr[j] > pivot && j >= low)
         {
             j--;
         }
 
-        // Swap arr[i] and arr[j]
+      
         if (i < j)
         {
             int temp = arr[i];
