@@ -10,7 +10,7 @@ void mergesort(int arr[],int lb,int ub ){
 	}
 }
 
-void smerge(int arr[] ,int lb ,int mid ,int ub){
+void merge(int arr[] ,int lb ,int mid ,int ub){
 	int i=lb;
 	int j=mid+1;
 	int temp[100] , k=0;
