@@ -236,7 +236,7 @@ int main(){
     int choice;
 
     while(1){
-        printf("1 Create list\n2 Insert Node at First Position\n3 Search An Element\n4 Insert At Any Position \n5 Display Linked List\n6 Delete First Node\n7 Delete Last Node\n8 Delete Element at Any Position\n9 Exit\n");
+        printf("1 Create Node\n2 Insert Node at First Position\n3 Search An Element\n4 Insert At Any Position \n5 Display Linked List\n6 Delete First Node\n7 Delete Last Node\n8 Delete Element at Any Position\n9 Exit\n");
         printf("Enter Number -> ");
         scanf("%d",&choice);
 
