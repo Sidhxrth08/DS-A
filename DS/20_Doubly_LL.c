@@ -65,7 +65,7 @@ void delete_first_node(){
     
       if(temp->next == NULL){
 
-        start == NULL;
+        start = NULL;
         free(temp);
 
         printf("First Node Deleted Successfully\n");
